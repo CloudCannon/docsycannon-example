@@ -537,7 +537,7 @@ _snippets:
 collections_config:
   pages:
     output: true
-    path: content/en
+    path: content
     icon: home
     _enabled_editors:
       - visual
