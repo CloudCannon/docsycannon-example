@@ -22,7 +22,7 @@ languages:
     description: A technical documentation site
     languageName: English
     weight: 1
-  'no':
+  no:
     title: Goldydocs
     description: Docsy er operativsystem for skyen
     languageName: Norsk
