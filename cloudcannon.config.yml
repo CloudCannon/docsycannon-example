@@ -914,6 +914,23 @@ collections_config:
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
 collection_groups:
+  - heading: English
+    collections:
+      - pages
+      - blog
+      - docs
+  - heading: Norsk
+    collections:
+      - norsk_pages
+      - norsk_docs
+  - heading: Farsi
+    collections:
+      - farsi_pages
+      - farsi_docs
+      - farsi_blog
+  - heading: Site Data
+    collections:
+      - data
 
 # Set this to true to disable auto-detection of collections.
 collections_config_override: false
