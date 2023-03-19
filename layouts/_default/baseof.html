@@ -4,7 +4,7 @@
     {{ partial "head.html" . }}
   </head>
   <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
-    <header>
+    <header class="d-flex justify-content-center">
       {{ partial "navbar.html" . }}
     </header>
     <div class="container-fluid td-default td-outer">

@@ -41,6 +41,7 @@
   .navbar-brand {
       text-transform: none;
       text-align: middle;
+      margin-right: 0;
 
       &__name {
         font-weight: $font-weight-bold;
@@ -61,16 +62,9 @@
   .navbar-nav {
       white-space: nowrap;
   }
-
-  // For .td-search__input styling, see _search.scss
-
-  .dropdown {
-      min-width: 100px;
-  }
-
+  
   @include media-breakpoint-down(lg) {
-      padding-right: .5rem;
-      padding-left: .75rem;
+      padding-inline: 1rem;
 
       .td-navbar-nav-scroll {
           max-width: 100%;
@@ -206,4 +200,16 @@ nav.foldable-nav {
           transition: color 0.3s;
       }
   }
+}
+
+// Prevent navbar max-width applying until larger screens than container-xl
+@media (min-width: 1140px) {
+    .td-navbar-container {
+        max-width: 100%;
+    }
+}
+@media (min-width: 1750px) {
+    .td-navbar-container {
+        max-width: 1140px;
+    }
 }
