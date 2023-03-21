@@ -1,4 +1,4 @@
-github_repo: https://github.com/CloudCannon/docsycannon-example
-github_project_repo: https://github.com/CloudCannon/docsycannon-template
+github_repo: https://github.com/google/docsy-example
+github_project_repo: https://github.com/google/docsy
 github_subdir: ''
-github_branch:
+github_branch: 
